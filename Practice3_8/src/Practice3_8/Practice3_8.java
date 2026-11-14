@@ -18,6 +18,7 @@ public class Practice3_8
 		 double delta=(b*b-4*a*c);
 		 double x1= (-b+Math.sqrt(delta))/(2*a);
 		 double x2= (-b-Math.sqrt(delta))/(2*a);
+		 double x= (-b)/(2*a);
 		 if (delta>0)
 		 {
 			 System.out.printf("root one is: %5.2f\nroot two is: %5.2f", x1,x2);
@@ -28,7 +29,7 @@ public class Practice3_8
 		 }
 		 else
 		 {
-			System.out.printf("equation has only one root: %5.2f", x1);
+			System.out.printf("equation has only one root: %5.2f", x);
 		 }
 	}
 }
